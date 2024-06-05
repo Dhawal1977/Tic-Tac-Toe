@@ -40,11 +40,22 @@
 }
 
 table button {
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px 20px;
     border-radius: 5px;
 }
 
 table td {
     padding: 10px;
+}
+
+#resetBtn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: green;
+    color: aqua;
+}
+
+#resetBtn:hover {
+    background-color: black;
 }
