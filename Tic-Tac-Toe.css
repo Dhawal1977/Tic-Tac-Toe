@@ -10,29 +10,34 @@
 }
 
 #mainBody {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
-#gameTable {
-    color: white;
+.gameTable {
     font-size: 50px;
-    border-spacing: 100px;
-    size: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
 }
 
-table {
-    border: 10px Solid white;
+/*table {
+    border: 7px Solid rgb(28, 28, 28);
     text-align: center;
     border-collapse: separate;
     border-spacing: 10px;
-}
+}*/
 
-
-/*
-td:hover {
-    background-color: white;
+.buttons {
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    padding: 70px;
+    border-radius: 10px;
 }
-*/
+.buttons:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(75, 75, 255);
+    cursor: pointer;
+}
 
 table button {
     font-size: 18px;
